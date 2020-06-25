@@ -23,19 +23,19 @@ title: LeetCode-2
 
 代码如下：
 
-```java
-class Solution {
-    public int missingNumber(int[] nums) {
-        int i;
-        for(i = 0; i < nums.length; i++){
-            if(nums[i] != i){
-                return i;
-            }
-        }
-        return nums.length;
-    }
-}
-```
+	```java
+	class Solution {
+	    public int missingNumber(int[] nums) {
+	        int i;
+	        for(i = 0; i < nums.length; i++){
+	            if(nums[i] != i){
+	                return i;
+	            }
+	        }
+	        return nums.length;
+	    }
+	}
+	```
 
 方法二
 
@@ -50,19 +50,19 @@ class Solution {
 
 代码如下：
 
-```java
-class Solution {
-    public int missingNumber(int[] nums) {
-        int low = 0, heigh = nums.length-1;
-        while(low <= heigh){
-            int mid = low + (heigh - low)/2;
-            if (nums[mid] == mid){
-                low = mid+1;
-            } else {
-                heigh = mid-1; 
-            }
-        }
-        return low;
-    }
-}
-```
+	```java
+	class Solution {
+	    public int missingNumber(int[] nums) {
+	        int low = 0, heigh = nums.length-1;
+	        while(low <= heigh){
+	            int mid = low + (heigh - low)/2;
+	            if (nums[mid] == mid){
+	                low = mid+1;
+	            } else {
+	                heigh = mid-1; 
+	            }
+	        }
+	        return low;
+	    }
+	}
+	```
