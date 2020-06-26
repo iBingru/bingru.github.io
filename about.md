@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+中北大学大四学生 软件工程专业
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+业余时间一般都在球场打球>……<
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ibingru@me.com](mailto:ibingru@me.com)
